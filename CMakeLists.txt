@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.11)
+project(Foo)
+add_executable(foo hw.c)
+add_executable(bar hw2.c)
+add_library(buz SHARED buz.c)
